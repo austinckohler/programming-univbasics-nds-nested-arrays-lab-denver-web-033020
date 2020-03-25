@@ -28,10 +28,11 @@ end
 def matrix_lookup(matrix, row, column)
   return matrix[row][column]
 end
-puts matrix_lookup(sorted_matrix, 1, 1)
+# puts matrix_lookup(sorted_matrix, 1, 1)
 
-
-
+def matrix_update(matrix, row, column, new_value)
+matrix[row][column] = new_value
+end
 
 
 # def assembled_matrix
