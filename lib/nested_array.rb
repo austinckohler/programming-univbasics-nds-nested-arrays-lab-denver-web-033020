@@ -25,8 +25,8 @@ def sorted_matrix
   nested = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 end
 
-def matrix_lookup
-  
+def matrix_lookup(matrix, row, column)
+  return matrix[row][column]
 end
 
 
