@@ -28,7 +28,7 @@ end
 def matrix_lookup(matrix, row, column)
   return matrix[row][column]
 end
-
+puts matrix_lookup(sorted_matrix, 1, 1)
 
 
 
