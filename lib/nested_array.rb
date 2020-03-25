@@ -16,6 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
+new_value = smile
 
 def assembled_matrix
   nested_array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
@@ -31,11 +32,10 @@ end
 # puts matrix_lookup(sorted_matrix, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
- new_value = smile
  matrix[row][column] = new_value
  return matrix
 end
-puts matrix_update(sorted_matrix, 1, 1)
+puts matrix_update(sorted_matrix, 1, 1, new_value)
 
 # def assembled_matrix
 # assembled_matrix = [
