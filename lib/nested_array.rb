@@ -16,6 +16,19 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
+
+def assembled_matrix
+  nested_array = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
+end
+
+
+
+
+
+
+
+
+
 # def assembled_matrix
 # assembled_matrix = [
 # CONVENTIONAL_PRODUCE,
