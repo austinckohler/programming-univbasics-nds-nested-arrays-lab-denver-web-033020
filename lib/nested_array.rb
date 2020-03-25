@@ -25,7 +25,9 @@ def sorted_matrix
   nested = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 end
 
-
+def matrix_lookup
+  lookup = assembled_matrix[1][1]
+end
 
 
 
