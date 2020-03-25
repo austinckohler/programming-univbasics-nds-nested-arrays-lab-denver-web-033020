@@ -32,7 +32,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
  new = matrix[row][column] = new_value
- return new 
+ return matrix
 end
 
 
