@@ -31,7 +31,8 @@ end
 # puts matrix_lookup(sorted_matrix, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
- return matrix[row][column][new_value]
+ new = matrix[row][column] = new_value
+ return new 
 end
 
 
