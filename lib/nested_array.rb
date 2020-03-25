@@ -34,7 +34,7 @@ def matrix_update(matrix, row, column, new_value)
  new = matrix[row][column] = new_value
  return matrix
 end
-puts matrix_update(sorted_matrix, 1, 1, japan)
+puts matrix_update(sorted, 1, 1)
 
 # def assembled_matrix
 # assembled_matrix = [
