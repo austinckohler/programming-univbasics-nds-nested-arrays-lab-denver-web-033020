@@ -16,7 +16,6 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-new_value = smile
 
 def assembled_matrix
   nested_array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
