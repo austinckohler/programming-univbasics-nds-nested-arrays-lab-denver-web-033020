@@ -31,6 +31,7 @@ end
 # puts matrix_lookup(sorted_matrix, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
+ new_value = smile
  matrix[row][column] = new_value
  return matrix
 end
