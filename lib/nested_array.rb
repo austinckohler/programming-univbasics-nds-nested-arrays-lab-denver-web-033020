@@ -26,7 +26,7 @@ def sorted_matrix
 end
 
 def matrix_lookup
-  lookup = assembled_matrix[1][1]
+  
 end
 
 
